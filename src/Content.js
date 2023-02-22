@@ -1,5 +1,6 @@
 // import images
 import Hero_person from "./assets/images/Hero/a-zaman.png";
+import resume from "./assets/files/resume.pdf";
 
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
@@ -15,14 +16,14 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
+import person_project from "./assets/images/projects/mern.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
+import Hireme_person from "./assets/images/Hireme/finger.png";
 // import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
@@ -61,7 +62,8 @@ export const content = {
     title: "Web Developer",
     firstName: "A",
     LastName: "ZAMAN'S",
-    btnText: "Hire Me",
+    btnText: "RESUME",
+    btnLink: resume,
     image: Hero_person,
     hero_content: [
       {
@@ -138,14 +140,17 @@ export const content = {
     image: person_project,
     project_content: [
       {
+        id: "1",
         title: "Xclusive Cars - Used product reselling site",
         image: project1,
       },
       {
+        id: "2",
         title: "Get Your Writer - A service review Website",
         image: project2,
       },
       {
+        id: "3",
         title: "Pro Tech Edu - Educational service",
         image: project3,
       },
