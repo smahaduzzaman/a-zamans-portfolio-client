@@ -3,7 +3,7 @@ import Hero_person from "./assets/images/Hero/a-zaman.png";
 import resume from "./assets/files/resume.pdf";
 
 import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
+import laravel from "./assets/images/Skills/laravel.png";
 import mongodb from "./assets/images/Skills/mongodb.png";
 import expressjs from "./assets/images/Skills/express.png";
 import nextjs from "./assets/images/Skills/nextjs.png";
@@ -16,7 +16,8 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/mern.png";
+import project4 from "./assets/images/projects/realestate.png";
+import person_project from "./assets/images/projects/features.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -24,12 +25,11 @@ import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
 import Hireme_person from "./assets/images/Hireme/finger.png";
-// import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import {FaWhatsapp} from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -81,24 +81,9 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Node js",
-        para: "JavaScript runtime built on Chrome's V8 JavaScript engine",
-        logo: nodejs,
-      },
-      {
-        name: "React js",
-        para: "React is a declarative, efficient, and flexible JavaScript library",
-        logo: reactjs,
-      },
-      {
-        name: "Mongo DB",
-        para: "A document database with the scalability and flexibility",
-        logo: mongodb,
-      },
-      {
-        name: "Express js",
-        para: "Express is a minimal and flexible Node.js web application framework ",
-        logo: expressjs,
+        name: "Laravel",
+        para: "Laravel is a web application framework with expressive, elegant syntax.",
+        logo: laravel,
       },
       {
         name: "Next js",
@@ -109,7 +94,22 @@ export const content = {
         name: "TypeScript",
         para: "Syntactic superset of JavaScript which adds static typing.",
         logo: typescript,
-      }
+      },
+      {
+        name: "React js",
+        para: "React is a declarative, efficient, and flexible JavaScript library",
+        logo: reactjs,
+      },
+      {
+        name: "Express js",
+        para: "Express is a minimal and flexible Node.js web application framework ",
+        logo: expressjs,
+      },
+      {
+        name: "Mongo DB Mongoose",
+        para: "A document database with the scalability and flexibility",
+        logo: mongodb,
+      },
     ],
     icon: MdArrowForward,
   },
@@ -145,6 +145,11 @@ export const content = {
         image: project1,
       },
       {
+        id: "",
+        title: "Xclusive Cars - Used product reselling site",
+        image: project1,
+      },
+      {
         id: "2",
         title: "Get Your Writer - A service review Website",
         image: project2,
@@ -153,6 +158,11 @@ export const content = {
         id: "3",
         title: "Pro Tech Edu - Educational service",
         image: project3,
+      },
+      {
+        id: "4",
+        title: "RealEstate Ltd - Real Estate service",
+        image: project4,
       },
     ],
   },
@@ -164,7 +174,7 @@ export const content = {
         review:
           "“This Xcusive Cars works outstandingly well. It beautifully improves my basketball by a lot.”",
         img: avatar1,
-        name: "Hasibul Hasan, Bangladesh",
+        name: "Nicholas D. Macon, United State",
       },
       {
         review:
@@ -182,7 +192,7 @@ export const content = {
         review:
           "“SoCal cockroaches are unwelcome, crafty, and tenacious. This Xcusive Cars keeps them away.”",
         img: avatar4,
-        name: "Jhankar Mahabub, United State",
+        name: "Cody E. Gibbons, United State",
       },
     ],
   },
@@ -190,7 +200,6 @@ export const content = {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
-    // image2: Hireme_person2,
     para: "My name is S M Ahaduzzaman, and I'm telling about web development assistant with web design and web application development. I am appling for your project on my portfolio website while you browsing it. I think you'll find that my attention to detail and strong communication skills could help you excel in this role and I'd love to discuss my qualifications in more detail.",
     btnText: "Hire Me",
   },

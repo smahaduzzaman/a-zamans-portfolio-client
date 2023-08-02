@@ -5,7 +5,6 @@ import ProjectGallery from './ProjectGallery';
 
 const ProjectDetails = () => {
     const data = useLoaderData();
-    console.log(data);
 
     return (
         <div className='flex flex-col w-full h-auto mx-auto my-10'>

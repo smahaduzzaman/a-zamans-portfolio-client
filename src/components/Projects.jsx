@@ -38,7 +38,7 @@ const Projects = () => {
             src={Projects.image}
             alt="..."
             data-aos="fade-right"
-            className="max-w-[45vw] min-w-[22rem] pb-10 px-10"
+            className="max-w-[30vw] min-w-[12rem] pb-10 px-10"
           />
           <Swiper
             pagination={{
@@ -61,7 +61,11 @@ const Projects = () => {
                 />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <a href={`/projectdetails/${content.id}`} className="font-bold text-gray self-end" target="_blank">
+                  <a
+                    href={`/projectdetails/${content.id}`}
+                    className="font-bold text-gray self-end"
+                    target="_blank"
+                  >
                     SEE DETAILS
                   </a>
                 </div>
